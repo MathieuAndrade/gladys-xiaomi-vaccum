@@ -1,0 +1,10 @@
+{
+  "name": "gladys-xiaomi-vaccum",
+  "version": "0.0.1",
+  "description": "This module can comunicate with xiami vaccum v1",
+  "author": "Mathieu Andrade",
+  "main": "index.js",
+  "dependencies": {
+    "miio": "^0.15.6"
+  }
+}
