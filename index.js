@@ -1,8 +1,8 @@
 
 module.exports = function (sails) {
 
-    const connect = require('./lib/xiaomi.vaccum.connect');
-    const exec = require('./lib/xiaomi.vaccum.exec');
+    const connect = require('./lib/connect');
+    const exec = require('./lib/exec');
 
     gladys.on('ready', function(){
         connect();
