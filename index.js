@@ -1,15 +1,19 @@
 
 module.exports = function (sails) {
 
-    const connect = require('./lib/connect');
-    const exec = require('./lib/exec');
+    const install = require('./lib/install.js')
+    const init = require('./lib/init')
+    const setup = this.require('./setup.js')
+    const exec = require('./lib/exec')
 
     gladys.on('ready', function(){
-        connect();
+        init();
     });
       
     return {
-        connect,
+        install,
+        init,
+        setup,
         exec,
     };
 };
