@@ -24,7 +24,7 @@ See [Obtain token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/doc
 
   - Name: `Xiaomi vacuum`
   - Version: `3.4.0`
-  - URL: `https: // github.com / MathieuAndrade / gladys-xiaomi-vacuum.git`
+  - URL: `https://github.com/MathieuAndrade/gladys-xiaomi-vaccum.git`
   - Slug: `xiaomi-vacuum`
 
 ### Restart Gladys
